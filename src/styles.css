@@ -1,0 +1,82 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-image: linear-gradient(
+    to top,
+    #e7ebf3 0%,
+    #e3eeff 99%,
+    #e3eeff 100%
+  );
+  background-size: cover;
+}
+
+img {
+  width: 200px;
+  padding: 5px;
+}
+
+a {
+  color: black;
+}
+
+h5 {
+  text-align: center;
+}
+
+li {
+  text-align: center;
+  list-style: none;
+}
+
+strong {
+  font-weight: bolder;
+}
+
+footer {
+  padding: 10px;
+}
+
+.header {
+  width: 100%;
+  background-color: #a1bbecb2;
+  color: #f1f1f1;
+  z-index: 5;
+}
+
+.collapse {
+  padding: 10px;
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.time {
+  margin-left: 10px;
+}
+
+.main {
+  margin: 0, 300px;
+  text-align: center;
+}
+
+.card {
+  border-radius: 1px;
+  border-style: none;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.card li {
+  text-align: left;
+  font-size: 16px;
+}
+
+.contact {
+  margin: 30px;
+}
+
+.contact-form {
+  text-align: left;
+}
